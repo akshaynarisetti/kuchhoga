@@ -6,12 +6,21 @@
 
   <link rel="stylesheet" href="./style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 
 <body>
 
-  <div class="page">
+<div class="loader">
+<div>
+<h1>KUCH HOGA</h1>
+ 
+</div>
+  </div>
+  
+
+  <div class="content">
     <div class="marvel-device nexus5">
       <div class="top-bar"></div>
       <div class="sleep"></div>
@@ -45,7 +54,7 @@
                 </div>
                 <div class="name">
                   <span>Kuch Hoga(Hostel Group)</span>
-                  <span class="status">Akshay, shreyas,chin..</span>
+                  <span class="status">Akshay, shreyas, chinmaya</span>
                 </div>
                 <div class="actions more">
                   <i class="zmdi zmdi-more-vert"></i>
@@ -102,8 +111,19 @@
       </div>
     </div>
   </div>
+</div>
 
 
   <script src="./script.js"></script>
+
+  <script>
+
+    $(window).on('load', function(){
+
+      $(".loader").fadeOut(1000);
+      $(".content").fadeIn(1000);
+    });
+  </script>
+
 </body>
 </html>
