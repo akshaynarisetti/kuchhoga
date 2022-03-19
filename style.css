@@ -453,7 +453,7 @@ body {
 .loader>div{
 height: 100px;
 width: 100px;
-border: 250px solid #45474b;
+border: 150px solid #45474b;
 border-top-color: #45474b;
 position: absolute;
 margin: auto;
