@@ -6,7 +6,7 @@ var memes = [
 	'Bhai BlockChain bhanate hai, KUCH HOGA"',
 	'Bhai Dating App bhanate hai, KUCH HOGA"',
 	'Bhai Advanced Robot bhanate hai, KUCH HOGA"',
-	'Bhai DSA nahi horaha khud ka language bhanate hai, KUCH HOGA"',,
+	'Bhai DSA nahi horaha khud ka language bhanate hai, KUCH HOGA"',
 ];
 
 var random = document.querySelector('#random');
